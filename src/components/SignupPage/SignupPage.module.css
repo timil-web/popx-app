@@ -1,0 +1,79 @@
+/* Styling similar to login but with more fields */
+.container {
+    padding: 1.5rem;
+    box-sizing: border-box;
+    /* height: 80vh; */
+}
+
+.header {
+    margin-bottom: 2rem;
+}
+
+.title {
+    font-size: 28px;
+    font-weight: 600;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+}
+
+.inputGroup {
+    position: relative;
+    margin-bottom: 15px;
+}
+
+.inputGroup input {
+    width: 100%;
+    padding: 10px 0;
+    font-size: 16px;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    outline: none;
+    background: transparent;
+}
+
+.inputGroup label {
+    position: absolute;
+    top: 10px;
+    left: 0;
+    font-size: 16px;
+    color: #aaa;
+    pointer-events: none;
+    transition: 0.2s ease all;
+}
+
+.inputGroup input:focus ~ label,
+.inputGroup input:valid ~ label {
+    top: -15px;
+    left: 0;
+    font-size: 12px;
+    color: #6c25ff;
+}
+
+.radioGroup {
+    margin-bottom: 2rem;
+}
+
+.radioGroup p {
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.radioGroup div {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.submitBtn {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+    background-color: #6c25ff;
+    color: white;
+}

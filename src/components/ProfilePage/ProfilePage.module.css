@@ -1,0 +1,62 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 90vh;
+    background-color: #f4f4f4;
+}
+
+.header {
+    margin-top: 5px;
+    background-color: white;
+    color: black;
+    font: bold;
+    padding: 1.5rem;
+}
+
+.title {
+    margin: 0;
+    font-weight: 500;
+}
+
+.profileInfo {
+    padding: 1.5rem;
+    display: flex;
+    background-color: #f4f4f4;
+    align-items: center;
+}
+
+.profilePicContainer {
+    overflow: hidden;
+    margin-right: 1rem;
+}
+
+.profilePic {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+
+.profileDetails .name {
+    font-weight: 600;
+    font-size: 18px;
+    margin: 0;
+}
+
+.profileDetails .email {
+    color: #666;
+    margin: 4px 0 0 0;
+}
+
+.lorem {
+    padding: 0 1.5rem;
+    background-color: #f4f4f4;
+    line-height: 1.6;
+    color: #333;
+}
+
+.footer {
+    margin-top: auto;
+    background-color: #f4f4f4;
+    padding: 1rem;
+    height: 100%;
+}

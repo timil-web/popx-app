@@ -1,0 +1,50 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: end; */
+    padding: 2rem;
+    box-sizing: border-box;
+    height:90vh;
+}
+.upper {
+    font-size: 48px;
+    font-weight: bold;
+    color: #6c25ff;
+    margin-bottom: 24px;
+    height: 60vh;
+}
+.lower{
+    height: 40vh;
+}
+.title {
+    font-size: 28px;
+    font-weight: 600;
+    margin-bottom: 8px;
+}
+
+.subtitle {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 24px;
+}
+
+.btn {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.primaryBtn {
+    background-color: #6c25ff;
+    color: white;
+}
+
+.secondaryBtn {
+    background-color: #cebafb;
+    color: black;
+}
